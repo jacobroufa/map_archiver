@@ -1,0 +1,16 @@
+{
+  "name": "map_archiver",
+  "version": "1.0.0",
+  "description": "This application is intended to read from the City of Rockford's data portal's mappable datasets. They should not need to be updated often, but the option should be available to do so once the initial map data has been stored. If a change comes across we should be able to detect it, archive the previous map to an older revision, and update the map to use the latest data.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm start",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jacob M. Roufa <jacob.roufa@gmail.com> (http://jacobroufa.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "request": "2.79.0"
+  }
+}
