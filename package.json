@@ -12,5 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "request": "2.79.0"
-  }
+  },
+  "repository": "https://github.com/jacobroufa/map_archiver.git",
+  "private": true
 }
